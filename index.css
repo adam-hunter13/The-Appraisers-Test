@@ -1,6 +1,6 @@
 body {
     background-color: #162534;
-    font-family: geo;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .landing {
@@ -18,6 +18,7 @@ body {
 .title h1 {
     color: #ffffff;
     font-size: 36px;
+    font-weight: 400;
 }
 
 .sub-title {
@@ -46,6 +47,9 @@ nav a {
     margin-top: 15px;
     /* text-align: center; */
 
+}
+.nav-bar a.active-page {
+    color:#c9c9b5;
 }
 
 .map-section {
@@ -101,6 +105,7 @@ nav a {
 .welcome-message p {
     color: #ffffff;
     font-size: 16px;
+    line-height: 1.4;
 }
 
 .more-info p {
@@ -119,6 +124,10 @@ nav a {
     
 }
 
+#form1 {
+    display: none;
+}
+
 /* SERVICES CSS */
 
 .services-description {
@@ -128,9 +137,10 @@ nav a {
 
 .services-section {
     padding-left: 5%;
+    width: 60%;
 }
 .services {
-    width: 60%;
+    width: 80%;
 }
 .services h2 {
     color: #f4ce53;
@@ -146,11 +156,13 @@ nav a {
 .services p {
     color: #ffffff;
     font-size: 14px;
+    line-height: 1.4;
 }
 
 .form-section {
     width: 40%;
-    margin-right: 5%;
+    margin-right: 15%;
+    margin-top: 10%;
     height: 420px;
     background-color: #a39d94;
     
@@ -160,6 +172,8 @@ nav a {
     font-size: 16px;
     display: flex;
     justify-content: center;  
+    background-color: #a29d94;
+
 }
 
 form {
@@ -178,6 +192,98 @@ textarea {
 }
 
 .form-submit {
+    margin-top: 15px;
+    float: right;
+}
+
+/* ABOUT US PAGE */
+
+.about-section {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.about-section h2 {
+    color: #f4ce53;
+    font-size: 24px;
+}
+
+.about-section p {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.intro-section {
     display: flex;
-    justify-content: flex-end;
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    justify-content: space-evenly;
+    padding-top: 2%;
+}
+
+.person {
+    width: 25%;
+}
+
+.person h3 {
+    color: #f4ce53;
+    font-size: 16px;
+}
+
+.person p{
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.person img {
+    width: 250px;
+}
+
+.contact-us {
+    /* padding-left: 5%; */
+    display: flex;
+    justify-content: center;
+}
+
+.interested-section {
+    background-color: #a39d94;
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 100px;
+    border-radius: 15px;
+    margin-top: 25px;
+    padding-right: 5px;
+}
+
+.interested-section p {
+    font-size: 18px;
+    color: #021f46;
+    padding: 10px;
+}
+
+.interested-section button {
+    font-size: 16px;
+    color: rgb (255, 241, 163);
+    background-color: #f4ce53;
+    width: 76px;
+    height: 76px;
+    margin-right: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.commitment {
+    width: 40%;
+    padding-left: 50px;
+}
+.commitment h3 {
+    color: #a59983;
+    font-size: 24px;
+    font-weight: 700;
+    float: inline-start;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
 }
