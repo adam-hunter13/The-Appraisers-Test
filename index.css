@@ -118,3 +118,66 @@ nav a {
     cursor: pointer;
     
 }
+
+/* SERVICES CSS */
+
+.services-description {
+    display: flex;
+    flex-direction: row;
+}
+
+.services-section {
+    padding-left: 5%;
+}
+.services {
+    width: 60%;
+}
+.services h2 {
+    color: #f4ce53;
+    font-size: 24px;
+
+}
+
+.services h3 {
+    color: #f4ce53;
+    font-size: 16px;
+}
+
+.services p {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.form-section {
+    width: 40%;
+    margin-right: 5%;
+    height: 420px;
+    background-color: #a39d94;
+    
+}
+
+.form-section h3 {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;  
+}
+
+form {
+    background-color: #a39d94;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+label {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+textarea {
+    width:200px;
+    height:150px;
+}
+
+.form-submit {
+    display: flex;
+    justify-content: flex-end;
+}
